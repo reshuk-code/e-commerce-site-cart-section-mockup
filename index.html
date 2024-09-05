@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart-Mockup</title>
+    <!-- css -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="container">
+    <div id="top-text">
+        <h2>cart</h2>
+        <hr>
+    </div>
+    <div id="images">
+        <div id="products">
+       <img src="https://dummyimage.com/400" alt="product">
+       <div id="product-decription-for-image-listed">
+        <p id="description"></p>
+       </div>
+        </div>
+        <div id="make-a-buy-change-quantity">
+           <div id="change-qantity">
+               <button id="increase" onclick="increaseQuantity()">+</button><button id="decrease" onclick="decreseQuantity()">-</button>
+               <p id="quantity"></p>
+           </div>
+        </div>
+        <div id="billing-checkout">
+        <p>Billing sumarry</p>
+        <div id="billing-content">
+             <p id="bill"></p>
+        </div>
+        <button onclick="orderPlaced()">Checkout</button>
+    </div>
+    </div>
+    
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
